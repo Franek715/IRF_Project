@@ -1,3 +1,7 @@
+******************
+Eredetileg félreolvastam a feladatot és ide dolgoztam / végig ide commitoltam: https://github.com/Franek715/VersionControl/tree/IRF_Project/e-book_search
+******************
+
 Az IRF beadandó leírása
 
 A projekt célja az, hogy e-könnyveket tudjunk hatékonyan nyilvántartani. A program így 2 funkcióval bír: 
