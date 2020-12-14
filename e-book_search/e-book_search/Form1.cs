@@ -39,7 +39,8 @@ namespace e_book_search
             String s = (String) inputFormatList.SelectedItem;
             Format i = Format.pdf;
 
-            if(!(s.Length > 0 && inputTitle.Text.Length > 0 && inputAuthor.Text.Length > 0)) { MessageBox.Show("Valamelyik mező üres"); return; }
+            Console.WriteLine(s);
+            if(!( s!= null && inputTitle.Text.Length > 0 && inputAuthor.Text.Length > 0)) { MessageBox.Show("Valamelyik mező üres"); return; }
 
             switch (s.Substring(0,s.IndexOf(' '))) {
                 case "pdf": 
