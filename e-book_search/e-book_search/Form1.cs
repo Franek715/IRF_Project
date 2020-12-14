@@ -174,7 +174,7 @@ namespace e_book_search
                     String temp;
                     String trimmed;
                     bool asterisk;
-
+                    
                     switch (searchIn)
                     {
 
@@ -185,7 +185,7 @@ namespace e_book_search
                                 asterisk = false;
                                 trimmed = x.Title;
 
-                                for (int l = 0; l < keyword.Length; l++)
+                            for (int l = 0; l < keyword.Length; l++)
                                 {
                                     trimmed = trimmed.Substring(index).ToLower().Trim();
                                     index = 0;
